@@ -1,0 +1,3 @@
+pull后IDEA中无Maven选项，需右键pom.xml，add as maven ...
+tomcat需要在run->edit configuration->设定服务器启动地址，上下文
+IDEA中无法通过http://localhost:9999/seckill/seckill/list访问到的原因是，未在tomcat中设置上下文context，

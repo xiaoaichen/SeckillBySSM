@@ -1,0 +1,4 @@
+pull后IDEA中无Maven选项，需右键pom.xml，add as maven ...
+数据库需在本地先创建musql数据库服务器及数据后再在idea中连接数据库，需要idea自动下载驱动，需要advanced中设置时区
+tomcat需要在run->edit configuration->设定服务器启动地址，上下文
+IDEA中无法通过http://localhost:9999/seckill/seckill/list访问到的原因是，未在tomcat中设置上下文context，

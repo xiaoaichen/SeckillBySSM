@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SeckillBySSM:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SeckillBySSM</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="seckill.war">
+      <element id="artifact" artifact-name="seckill" />
+    </root>
+  </artifact>
+</component>
